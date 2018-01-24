@@ -1,0 +1,63 @@
+Exercício 2.1 ) 
+Para cada um dos termos de performance, pesquise na web exemplos que
+citam medições deste item.
+Em cada caso, copie o trecho de texto e a URL da página.
+----------------------------------------------------------------------------------------------------------------------------------------
+
+1) Tempo de resposta: quantidade de tempo para processar uma requisição.
+Existem diversas técnicas para otimizar sua página e aumentar a velocidade do site, mas hoje vamos falar sobre uma etapa anterior a essa: vamos conhecer algumas ferramentas gratuitas que nos permitem avaliar e medir o tempo de carregamento de um site. Como disse o famoso cientista e filósofo William Thompson (Lord Kelvin), “Aquilo que não se pode medir, não se pode melhorar”. Então vamos lá! 
+Diversos itens para testes:
+https://www.hostgator.com.br/blog/ferramentas-gratuitas-para-testar-o-carregamento-do-seu-site
+1. Teste de Tempo de Resposta(Response Time Testing): Representa a percepção do usuário de quão rápido o sistema reage para uma “Request” ou “Query”. A reação pode ser lenta ou rápida com base no tipo de atividade e o tempo necessário para processar a requisição. A aceitação de um determinado tempo de resposta é um fator relacionado à psicologia humana. As expectativas variam de usuário para usuário! Um usuário que trabalhada com 5 segundos de tempo de reposta, iria ficar frustrado com 10 segundos tempo de resposta, por exemplo. Então, o tempo de resposta de uma aplicação para outra difere, assim como de um usuário para outro. Mas a indústria apresenta as seguintes normas:
+• Para um sistema multimídia interativo, o tempo de resposta deveria ser 0.1 segundo ou menos, 90% do tempo;
+• Para sistemas online onde tarefas são inter-relacionadas, o tempo de resposta deveria ser menos que 0.5 segundos, 90% do tempo;
+• Para sistemas online onde usuários fazem múltiplas tarefas simultaneamente, o tempo de resposta deveria ser 1 segundo ou menos, 90% do tempo.
+A consistência do tempo de resposta é medida em vários ciclos de teste, se a performance é calculada especificamente em termos de tempo de resposta.
+http://www.linhadecodigo.com.br/artigo/3256/teste-de-desempenho-conceitos-objetivos-e-aplicacao-parte-1.aspx#ixzz558ouf0lG
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+2) Responsividade: velocidade com que uma requisição é reconhecida pelo
+sistema.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+3) Latência: tempo mínimo para fornecer qualquer tipo de resposta.
+Cable — 5/1 Mbps 28ms RTT
+DSL — 1.5 Mbps/384 Kbps 50ms RTT
+3G Fast — 1.6Mbps/768 Kbps 150ms RTT
+
+https://responsivedesign.is/articles/testing-for-latency/
+Pagina 19 – Não permite cópia de texto.
+https://www.lume.ufrgs.br/bitstream/handle/10183/15972/000695256.pdf?sequence=1
+
+Average Latency : 2ms
+Average Seek Time: 3ms
+Iops = 1 / (0,002 + 0,003) = 200
+http://blog.triggerdb.com/maxi/performance-tuning/iops-latencia-y-performance/
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+4) Throughput: quanto pode ser feito em um determinado período.
+Teste de Throughput(Throughput Testing): Teste de Throughput mede o throughput de um servidor em um sistema baseado em Web. Ele é uma medida do número de bytes enviados por unidade de tempo. Throughput de vários servidores em a arquitetura de sistema pode ser medido em kilobits por segundo, consultas em banco de dados por minuto, transações por hora, ou qualquer outra característica vinculada ao tempo.
+
+http://www.linhadecodigo.com.br/artigo/3256/teste-de-desempenho-conceitos-objetivos-e-aplicacao-parte-1.aspx#ixzz558pQn5Qk
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+5) Carga: stress aplicado a um sistema.
+“Number of threads (users)”: coloque o valor 10. Isso indica que vamos simular 10 usuários acessando a mesma API.
+“Ramp-Up period (in seconds)”: coloque também o valor 10. Esse valor indica o tempo de intervalo de acesso de um usuário para o outro.
+“Loop count”: coloque o valor 100. Esse o número indica quantas requisições serão feitas da API por um usuário.
+
+http://matera.com/br/2017/02/21/medindo-performance-de-uma-api-rest/
+
+6) Sensibilidade à carga / degradação: como o tempo de resposta varia de
+acordo com a carga.
+“Number of threads (users)”: coloque o valor 10. Isso indica que vamos simular 10 usuários acessando a mesma API.
+“Ramp-Up period (in seconds)”: coloque também o valor 10. Esse valor indica o tempo de intervalo de acesso de um usuário para o outro.
+“Loop count”: coloque o valor 100. Esse o número indica quantas requisições serão feitas da API por um usuário.
+
+http://matera.com/br/2017/02/21/medindo-performance-de-uma-api-rest/
+
+----------------------------------------------------------------------------------------------------------------------------------------
